@@ -1,0 +1,12 @@
+%soal satu%
+A = imread('ngc6543a.jpg');
+imshow(A)
+
+%soal dua%
+I= double(imread('circles.png'));
+I= imnoise(I,'salt & pepper',0.02);
+imshow(I)
+
+%soal tiga%
+I = imread('cameraman.tif');
+[J, rect] = imcrop(I);
